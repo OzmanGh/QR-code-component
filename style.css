@@ -12,6 +12,14 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
 article {
   width: 300px;
   text-align: center;
@@ -19,14 +27,6 @@ article {
   background-color: hsl(0, 0%, 100%);
   padding: 15px;
   border-radius: 20px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-image-section {
-  width: 100%;
 }
 
 img {
@@ -48,3 +48,4 @@ p {
   font-weight: 400;
   color: hsl(220, 15%, 55%);
 }
+
